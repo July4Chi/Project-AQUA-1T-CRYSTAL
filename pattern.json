@@ -1,19 +1,52 @@
 {
   "project": "Project-AQUA-1T-CRYSTAL",
-  "version": "1T-Tas2-Regenesis",
+  "version": "1T-Tas2-Regenesis-v2",
   "frequency_hz": 43200,
   "total_layers": 24,
   "total_stitches_target": 5400,
   "start_nodes": 18,
   "end_nodes": 432,
-  "special_functions": {
-    "portals": [5, 14],
-    "vortex_chambers": [7, 13, 16],
-    "radiation_phase": [20, 21, 22, 23, 24]
+  "engine_specs": {
+    "type": "Vortex_Combustion_Generator",
+    "emission_mode": "High-Power_Vertical_Axial",
+    "cooling_system": "Liquid_H2O_Circulation",
+    "circulation_evolution": "Phase1_Open-Loop_to_Phase2_Closed-Loop"
+  },
+  "self_healing_protocol": {
+    "substrate_compensation": "1T-TaS2_CDW_Stabilization",
+    "conductor_integrity": "Au_24K_Non-Oxidizing",
+    "water_regeneration": "H2O_Molecular_Restructuring"
   },
   "material_constants": {
     "substrate": "Organic Cotton",
     "conductor": "24K Gold Thread",
     "dielectric_constant_ref": "H2O_Polar_Lattice"
+  },
+  "session_signature": "REGENESIS_2026_FINAL_LOCK",
+  "regenesis_extension": {
+    "project": "Project-AQUA-1T-CRYSTAL",
+    "version": "1T-Tas2-Regenesis-v2-Ext",
+    "frequency_hz": 43200,
+    "total_layers": 24,
+    "total_stitches_target": 5400,
+    "start_nodes": 18,
+    "end_nodes": 432,
+    "engine_specs": {
+      "type": "Vortex_Combustion_Generator",
+      "emission_mode": "High-Power_Vertical_Axial",
+      "cooling_system": "Liquid_H2O_Circulation",
+      "circulation_evolution": "Phase1_Open-Loop_to_Phase2_Closed-Loop"
+    },
+    "self_healing_protocol": {
+      "substrate_compensation": "1T-TaS2_CDW_Stabilization",
+      "conductor_integrity": "Au_24K_Non-Oxidizing",
+      "water_regeneration": "H2O_Molecular_Restructuring"
+    },
+    "material_constants": {
+      "substrate": "Organic Cotton",
+      "conductor": "24K Gold Thread",
+      "dielectric_constant_ref": "H2O_Polar_Lattice"
+    },
+    "session_signature": "REGENESIS_2026_FINAL_LOCK"
   }
 }
