@@ -1,9 +1,10 @@
 {
   "project": "Project-AQUA-1T-CRYSTAL",
-  "version": "1T-Tas2-Regenesis-v2",
+  "version": "1T-TaS2-Regenesis-v2-Final",
   "frequency_hz": 43200,
   "total_layers": 24,
   "total_stitches_target": 5400,
+  "node_description": "5400ノードの連続パスを形成（1T-TaS2 / 1T-TaS₂ 曼荼羅ドイリー幾何学の応用）",
   "start_nodes": 18,
   "end_nodes": 432,
   "engine_specs": {
@@ -25,10 +26,11 @@
   "session_signature": "REGENESIS_2026_FINAL_LOCK",
   "regenesis_extension": {
     "project": "Project-AQUA-1T-CRYSTAL",
-    "version": "1T-Tas2-Regenesis-v2-Ext",
+    "version": "1T-TaS2-Regenesis-v2-Ext",
     "frequency_hz": 43200,
     "total_layers": 24,
     "total_stitches_target": 5400,
+    "node_description": "二重共鳴・自己修復バックアップ (1T-TaS2 / 1T-TaS₂)",
     "start_nodes": 18,
     "end_nodes": 432,
     "engine_specs": {
