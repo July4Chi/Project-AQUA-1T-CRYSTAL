@@ -1,0 +1,19 @@
+{
+  "project": "Project-AQUA-1T-CRYSTAL",
+  "version": "1T-Tas2-Regenesis",
+  "frequency_hz": 43200,
+  "total_layers": 24,
+  "total_stitches_target": 5400,
+  "start_nodes": 18,
+  "end_nodes": 432,
+  "special_functions": {
+    "portals": [5, 14],
+    "vortex_chambers": [7, 13, 16],
+    "radiation_phase": [20, 21, 22, 23, 24]
+  },
+  "material_constants": {
+    "substrate": "Organic Cotton",
+    "conductor": "24K Gold Thread",
+    "dielectric_constant_ref": "H2O_Polar_Lattice"
+  }
+}
