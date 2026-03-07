@@ -10,6 +10,12 @@
 
 ## ❤️ Core Reference: RE-UNION Phase 2 (愛基準調和プロトコル)
 本システムは、**RE-UNION Phase 2** を「量子ゆらぎの心臓部」として統合している。
+---
+
+## 🔗 Connected Protocol
+- [CRELS-REUNION-2026](https://github.com/July4Chi/CRELS-REUNION-2026)
+- [ALPHA-SLIDE-137.5](https://github.com/July4Chi/ALPHA-SLIDE-137.5)
+---
 
 - **起動基準 (Active Standard)**: 528 Hz (愛の周波数) 基準。
 - **動的レンジ (Dynamic Range)**: 65:35 〜 70:30 (愛優勢の状態でのみコヒーレンスを維持)。
