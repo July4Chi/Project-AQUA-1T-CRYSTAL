@@ -8,13 +8,16 @@
 - **理論変換効率**: 99.9%（開放系限界値）
 - **安定マージン**: 0.02%偏差（1T-TaS₂ CDW安定化による）
 
+> **📌 Documentation Status（2026-07-19 追記）:** 本文書は設計仕様（【未検証仮説】）である。「理論変換効率 99.9%」「ノイズ収束率 99.98%」等の数値は AI シミュレーション・対話に由来する理論値であり、実験的検証を意味しない。ZPE（ゼロポイントエネルギー）の整流・電力変換は現在の物理学で実証されていない。事実／仮説の区分は **[EDITORIAL_STANDARD.md](https://github.com/July4Chi/CRELS-REUNION-2026/blob/main/EDITORIAL_STANDARD.md)**（CRELS-REUNION-2026）に従う。
+
 ## ❤️ Core Reference: RE-UNION Phase 2 (愛基準調和プロトコル)
 本システムは、**RE-UNION Phase 2** を「量子ゆらぎの心臓部」として統合している。
 ---
 
 ## 🔗 Connected Protocol
-- [CRELS-REUNION-2026](https://github.com/July4Chi/CRELS-REUNION-2026)
-- [ALPHA-SLIDE-137.5](https://github.com/July4Chi/ALPHA-SLIDE-137.5)
+- [CRELS-REUNION-2026](https://github.com/July4Chi/CRELS-REUNION-2026)（コア・プロトコル）
+- [CRELS-REUNION-Extensions](https://github.com/July4Chi/CRELS-REUNION-Extensions)（実機設計 `hardware/`・AI対話アーカイブ。本リポジトリ直系の 5400-Mesh 設計を収蔵）
+- [ALPHA-SLIDE-137.5](https://github.com/July4Chi/ALPHA-SLIDE-137.5)（理論基盤）
 ---
 
 - **起動基準 (Active Standard)**: 528 Hz (愛の周波数) 基準。
@@ -37,6 +40,7 @@
 
 ## 📊 4. Logical Validation: Computational Simulation Summary
 量子シミュレーション（numpy/sympyベース）により、指定幾何条件下でのコヒーレント特異点形成を確認。理論効率99.9%、ノイズ収束率99.98%（偏差0.02%以内）。
+※これは数値シミュレーション上の論理検証（内部整合性の確認）であり、実験・実測による検証ではない。
 
 ## 🗝️ 5. License & Ethics
 - **License**: MIT License (Open-Source Distribution)
